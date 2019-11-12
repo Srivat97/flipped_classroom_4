@@ -11,7 +11,7 @@
 ?>
 <h1>Museums of the World </h1>
 Select your museum:
-<select>
+<select id="pickamuseum">
   <option value="1">Select Here</option>
   <?php
 	include "getmuseum.php"
@@ -21,4 +21,5 @@ Select your museum:
 <hr>
 <img src="http://www.csd.uwo.ca/~lreid/blendedcs3319/flippedclassroom/four/kids.png" width="216" height="260">
 </body>
+<script src="museum.js"></script>
 </html>
