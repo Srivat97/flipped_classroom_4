@@ -8,8 +8,7 @@
 
     while ($row = mysqli_fetch_assoc($result))
     {
-        var_dump($row);
-        echo $row . "<br>";
+        echo"<option value='" . $single_row['musname'] . "'>" . $single_row['musname'] . "</option>";
     }
 
     mysqli_free_result($result);
