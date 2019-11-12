@@ -6,6 +6,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 </head>
 <body>
+<?php
+	include "con.php"
+?>
 <h1>Museums of the World </h1>
 Select your museum:
 <select>
